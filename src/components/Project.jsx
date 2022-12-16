@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Project() {
-  return <article className='opacity-90 w-1/3 relative group -z-10'>
+  return <article className='opacity-90 w-1/3 relative group'>
     
     <p className='text-center text-white z-20 absolute right-1/2 translate-x-1/2 top-1/2 -translate-y-1/2 opacity-0 
     group-hover:opacity-100 transition-[filter] pointer-events-none'>Click to see upthere</p>
