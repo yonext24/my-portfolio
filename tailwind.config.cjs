@@ -14,7 +14,9 @@ module.exports = {
       lightpurple: '#bb98ff',
       darkpurple: '#0E050F',
       rose: 'rgba(189, 43, 226,.2)',
-      blue: 'rgb(60, 135, 194,.2)'
+      blue: 'rgb(60, 135, 194,.2)',
+      rose2: 'rgb(189,43,226)',
+      blue2: 'rgb(60,135,194)',
     },
     extend: {
       keyframes: {

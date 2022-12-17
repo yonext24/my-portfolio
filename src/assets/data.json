@@ -1,0 +1,37 @@
+{
+  "shoes": {
+    "title": "Shoes E-Commerce",
+    "description": "Lorem ipsum dolor blablbalbalbal",
+    "image": "shoespage.png",
+    "github": "",
+    "demo": ""
+  },
+  "pokeapi": {
+    "title": "Pokemon Page",
+    "description": "Lorem ipsum dolor blablbalbalbal",
+    "image": "pokeapi.png",
+    "github": "",
+    "demo": ""
+  },
+  "comments": {
+    "title": "Comments Page",
+    "description": "Lorem ipsum dolor blablbalbalbal",
+    "image": "comments.png",
+    "github": "",
+    "demo": ""
+  },
+  "landingpage": {
+    "title": "Landing Page",
+    "description": "Lorem ipsum dolor blablbalbalbal",
+    "image": "landing.png",
+    "github": "",
+    "demo": ""
+  },
+  "cardspage": {
+    "title": "Cards Page",
+    "description": "Lorem ipsum dolor blablbalbalbal",
+    "image": "cards.png",
+    "github": "",
+    "demo": ""
+  }
+}
