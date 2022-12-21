@@ -1,4 +1,5 @@
 import AboutMe from './components/AboutMe'
+import Footer from './components/Footer'
 import MyData from './components/MyData'
 import Navbar from './components/Navbar'
 import ProjectSection from './components/ProjectSection'
@@ -19,6 +20,7 @@ function App() {
           <Quote />
           <MyData />
           <ProjectSection />
+          <Footer />
       </LanguageContextProvider>
     </div>
   )

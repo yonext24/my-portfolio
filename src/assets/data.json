@@ -2,38 +2,58 @@
   "projects": {
     "shoes": {
       "title": "Shoes E-Commerce",
-      "description": "Lorem ipsum dolor blablbalbalbal",
+      "description": {
+        "en": "E-Commerce created in colaboration with a friend to level up our github habilities.",
+        "es": "E-Commerce creado en colaboración con un amigo para subir nuestro nivel de github."
+      },
       "image": "shoespage.png",
-      "github": "",
-      "demo": ""
+      "github": "https://github.com/mendoza000/myshoes",
+      "demo": "https://myshoes-omega.vercel.app/",
+      "skills": ["tailwind", "html", "css", "react", "mobile first", "responsive"]
     },
     "pokeapi": {
       "title": "Pokemon Page",
-      "description": "Lorem ipsum dolor blablbalbalbal",
+      "description": {
+        "en": "Pokemon page made with the pokeapi, made as my first big react project.",
+        "es": "Página de pokemón hecha consumiendo la pokeapi, hecho como mi primer gran proyecto de react."
+      },
       "image": "pokeapi.png",
-      "github": "",
-      "demo": ""
+      "github": "https://github.com/yonext24/pokeapi-yonext24",
+      "demo": "https://pokeapi-yanz.netlify.app/",
+      "skills": ["api", "html", "css", "react"]
     },
     "comments": {
       "title": "Comments Page",
-      "description": "Lorem ipsum dolor blablbalbalbal",
+      "description": {
+        "en": "Comments page with CRUD backend, you can answer, like another comments and more.",
+        "es": "Página de comentarios CRUD con backend, se puede responder, likear y más."
+      },
       "image": "comments.png",
-      "github": "",
-      "demo": ""
+      "github": "https://github.com/yonext24/firstApi-front",
+      "demo": "https://adorable-panda-7d06e6.netlify.app/",
+      "skills": ["CRUD", "html", "css", "react"]
     },
     "landingpage": {
       "title": "Landing Page",
-      "description": "Lorem ipsum dolor blablbalbalbal",
+      "description": {
+        "en": "One of my first web projects, made to demonstate myself to being able to be a web developer. Frontend Mentor Challenge.",
+        "es": "Uno de mis primeros proyectos web, hecho para demostrarme a mi mismo que puedo ser un desarrollador web. Desafío de Frontend Mentor."
+      },
       "image": "landing.png",
-      "github": "",
-      "demo": ""
+      "github": "https://github.com/yonext24/intro-section-frontendmentor",
+      "demo": "https://superlative-kulfi-fda267.netlify.app/",
+      "skills": ["javascript", "html", "css"]
     },
     "cardspage": {
       "title": "Cards Page",
-      "description": "Lorem ipsum dolor blablbalbalbal",
+      "description": {
+        "en": "My first web project. Frontend Mentor Challenge.",
+        "es": "Mi primer página, Desafío de Frontend Mentor."
+      },
       "image": "cards.png",
-      "github": "",
-      "demo": ""
+      "github": "https://github.com/yonext24/Frontend-Mentor-Card-Details",
+      "demo": "https://cheery-cucurucho-580773.netlify.app/",
+      "skills": ["javascript", "html", "css"]
     }
   },
   "data": {
@@ -41,13 +61,15 @@
       "presentation": "Hello 🌎! Im Jonathan Picone and",
       "presentationPhrase": "I enjoy developing",
       "webApps": "web applications",
-      "aboutme": ""
+      "aboutme": "I learned Python as my first programming language in late 2020. After that i became interested in web development because i liked the posibility of designing pages by myself. I really enjoy creating new things and see them grow into a full functional proyect. Spanish is my first language and i have a begginer-intermediate english knowledge.",
+      "phrase": { "quote": "Vida antes que muerte, fuerza antes que debilidad, viaje antes que destino.", "author":"El camino de los reyes"}
     },
     "es": {
       "presentation": "Hola 🌎! Soy Jonathan Picone y",
       "presentationPhrase": "Disfruto desarrollando",
       "webApps": "aplicaciones web",
-      "aboutme": ""
+      "aboutme": "El primer lenguaje que aprendí fue Python a finales de 2020 y después me vi interesado en el desarrollo web porque me gustó la posibilidad de crear páginas. Disfruto mucho el proceso de creación de páginas, verlas crecer y volverse un proyecto completamente funcional. El español es mi lengua materna y tengo un conocimiento básico-intermedio de inglés.",
+      "phrase": { "quote": "Life before death, strength before weakness, journey before destination.", "author": "The Way of Kings" }
     }
   }
 }

@@ -1,15 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { LanguageContext } from '../contexts/LanguageContext'
 
 export default function Project({ data, parentSetState }) {
   const handleProjectChange = () => {
     parentSetState(data)
   }
 
+  const {language} = useContext(LanguageContext)
+
   return <article className='opacity-90 w-1/3 relative group z-[5] hover:z-20'
   onClick={handleProjectChange}>
     
     <p className='text-center text-white z-20 absolute right-1/2 translate-x-1/2 top-1/2 -translate-y-1/2 opacity-0 
-    group-hover:opacity-100 transition-[filter] pointer-events-none'>Click to see upthere</p>
+    group-hover:opacity-100 transition-[filter] pointer-events-none'>{language === 'es' ? 'Click para ver arriba' : 'Click to see upthere'}</p>
     
     <img src={data.image} draggable='false' className='aspect-video rounded-l-lg cursor-pointer group-hover:brightness-[.2]
     z-[5] transition-[filter] dark:brightness-[.8]' />

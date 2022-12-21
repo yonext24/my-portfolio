@@ -12,11 +12,13 @@ module.exports = {
       mainpurple: '#4a1e9e',
       secondarypurple: '#8a2be2',
       lightpurple: '#bb98ff',
-      darkpurple: '#0E050F',
+      darkpurple: '#0E050F', 
       rose: 'rgba(189, 43, 226,.2)',
       blue: 'rgb(60, 135, 194,.2)',
       rose2: 'rgb(189,43,226)',
       blue2: 'rgb(60,135,194)',
+      gradient1: 'rgba(19, 7, 27, .7)',
+      gradient2: 'rgba(25, 10, 42, .7)'
     },
     extend: {
       keyframes: {
