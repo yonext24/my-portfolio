@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { HiOutlineSun, HiOutlineMoon } from 'react-icons/hi';
 import { HiOutlineLanguage } from 'react-icons/hi2';
+import { Link } from 'react-scroll';
 import { LanguageContext } from '../contexts/LanguageContext';
 import useIntersectionObserver from '../hooks/useIntersectionObserver';
 
@@ -32,11 +33,10 @@ export default function Navbar() {
     language === 'es' ? setLanguage('en') : setLanguage('es')
   }
 
-  const { isInViewPort, fromRef } = useIntersectionObserver()
-
+  const { intersected: isInViewPort, fromRef } = useIntersectionObserver('0px', false)
 
   return <>
-    <div className='w-full absolute top-0 left-0' ref={fromRef}></div>
+    <div className='w-full absolute top-0 left-0 h-px' ref={fromRef}></div>
     <nav className={`w-full fixed top-0 left-0 h-16 dark:text-white z-50 bg-[transparent] transition-all`}>
       <div className={`flex justify-between w-4/5 mx-auto h-full
       bg-gradient-to-tr from-rose via-rose to-blue dark:from-gradient1 dark:via-gradient1 dark:to-gradient2
@@ -60,27 +60,27 @@ export default function Navbar() {
           <span className='text-md text-secondarypurple font-bold my-auto uppercase'>{language}</span>
         </div>
         <div className='flex gap-6 h-4/5 justify-center my-auto pt-[4px]'>
-          <button className='group'>
+          <Link to='home' smooth className='group cursor-pointer h-min my-auto' spy={true} duration={500}>
             <div className='border-l-4 border-b-4 pl-[2px] border-[transparent] group-hover:border-mainpurple transition-colors'>
               <div className='group-hover:translate-x-[4px] group-hover:-translate-y-[4px] transition-transform'>
-                {language === 'es' ? 'Inicio' : 'Start'}
+                {language === 'es' ? 'Inicio' : 'Home'}
               </div>
             </div>
-          </button>
-          <button className='group'>
+          </Link>
+          <Link to='aboutme' smooth className='group cursor-pointer h-min my-auto' spy={true} duration={500}>
             <div className='border-l-4 border-b-4 pl-[2px] border-[transparent] group-hover:border-mainpurple transition-colors'>
               <div className='group-hover:translate-x-[4px] group-hover:-translate-y-[4px] transition-transform'>
                 {language === 'es' ? 'Sobre Mi' : 'About Me'}
               </div>
             </div>
-          </button>
-          <button className='group'>
+          </Link>
+          <Link to='projects' smooth className='group cursor-pointer h-min my-auto' spy={true} duration={500}>
             <div className='border-l-4 border-b-4 pl-[2px] border-[transparent] group-hover:border-mainpurple transition-colors'>
               <div className='group-hover:translate-x-[4px] group-hover:-translate-y-[4px] transition-transform'>
                 {language === 'es' ? 'Proyectos' : 'Projects'}
               </div>
             </div>
-          </button>
+          </Link>
         </div>
 
       </div>

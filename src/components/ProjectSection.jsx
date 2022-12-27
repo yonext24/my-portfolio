@@ -6,7 +6,7 @@ import data from '../assets/data.json'
 export default function ProjectSection() {
   const [finalData, setFinalData] = useState(data.projects.shoes)
 
-  return <section className='w-full pt-6'>
+  return <section id='projects' className='w-full pt-6'>
     <div className='bg-gradient-to-tr from-rose to-blue w-4/5 mx-auto rounded-3xl backdrop-blur-[2px] py-12 px-6 flex flex-col'>
       <CurrentProject data={finalData} />
       <div className='flex flex-wrap gap-x-14 gap-y-8 mt-6 justify-center'>

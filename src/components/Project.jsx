@@ -12,7 +12,7 @@ export default function Project({ data, parentSetState }) {
   onClick={handleProjectChange}>
     
     <p className='text-center text-white z-20 absolute right-1/2 translate-x-1/2 top-1/2 -translate-y-1/2 opacity-0 
-    group-hover:opacity-100 transition-[filter] pointer-events-none'>{language === 'es' ? 'Click para ver arriba' : 'Click to see upthere'}</p>
+    group-hover:opacity-100 transition-[filter] pointer-events-none'>{language === 'es' ? 'Click para ver arriba' : 'Click to preview'}</p>
     
     <img src={data.image} draggable='false' className='aspect-video rounded-l-lg cursor-pointer group-hover:brightness-[.2]
     z-[5] transition-[filter] dark:brightness-[.8]' />

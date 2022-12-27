@@ -3,14 +3,18 @@ import Scroll from './Scroll'
 import { AiOutlineInstagram, AiOutlineGithub, AiOutlineWhatsApp } from 'react-icons/ai'
 import { LanguageContext } from '../contexts/LanguageContext'
 import data from '../assets/data.json'
+import useIntersectionObserver from '../hooks/useIntersectionObserver'
 
 export default function WelcomeSection() {
   const { language } = useContext(LanguageContext)
 
-  return <section className='w-full h-screen flex flex-col items-center relative'>
+  const {fromRef, intersected} = useIntersectionObserver()
+
+  return <section id='home' className='w-full h-screen flex flex-col items-center relative'>
     <div className='w-4/5 max-w-4xl h-full mx-auto flex justify-center items-center'>
-      <article className='grid grid-cols-[1fr_auto] h-[60%] bg-transparent place-content-center rounded-3xl p-5 pr-8 shadow-xl
-       transition-[background-color,transform] duration-200 border-2 border-mainpurple backdrop-blur-[2px] hover:-translate-y-1'>
+      <article ref={fromRef} className={`grid grid-cols-[1fr_auto] h-[60%] bg-transparent place-content-center rounded-3xl p-5 pr-8 shadow-xl
+       transition-[transform,opacity] duration-500 border-2 border-mainpurple backdrop-blur-[2px] hover:-translate-y-1
+       ${!intersected && 'opacity-0 translate-x-1/3'}`}>
         <div className='flex flex-col justify-center'>
           <div>
             <div>
