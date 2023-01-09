@@ -79,6 +79,21 @@
         "html",
         "css"
       ]
+    },
+    "landing_cviz": {
+      "title": "Landing Page",
+      "description": {
+        "en": "My first paid job, it was made for an small enterprise who needed a simple landing page.",
+        "es": "Mi primer trabajo pagado, fue hecho para una empresa pequeña que necesitaba una landing page simple."
+      },
+      "image": "landing_cviz.png",
+      "github": "",
+      "demo": "https://clinquant-buttercream-1acdc5.netlify.app/",
+      "skills": [
+        "tailwind",
+        "responsive",
+        "react"
+      ]
     }
   },
   "data": {
