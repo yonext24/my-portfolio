@@ -24,7 +24,7 @@ export default function AboutMe() {
       </h3>
       <h4 className='text-xl dark:text-white break-words'>{data.data[language].aboutme}</h4>
     </div>
-    <img src='/aboutmesvg.svg' className={`h-4/5 absolute bottom-4 right-0 transition-[opacity,transform]
+    <img src='/aboutmesvg.png' className={`h-4/5 absolute bottom-4 right-0 transition-[opacity,transform]
     duration-500 ${!intersected && 'opacity-0 translate-x-1/3'}`} alt='about-me' draggable='false' />
   </section>
 }

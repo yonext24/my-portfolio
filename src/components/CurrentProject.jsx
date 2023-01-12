@@ -20,10 +20,13 @@ export default function CurrentProject({ data }) {
       </div>
       <div className='mt-auto flex gap-2'>
         <div className='flex gap-2 items-end'>
-          <a className='rounded-lg bg-rose2 py-1 px-2 flex items-center w-max gap-x-2' href={data.data.demo} target='_blank' >
-            <TfiWorld className='h-5 w-5' />
-            Demo
-          </a>
+          {
+            !data.noDemo &&
+            <a className='rounded-lg bg-rose2 py-1 px-2 flex items-center w-max gap-x-2' href={data.data.demo} target='_blank' >
+              <TfiWorld className='h-5 w-5' />
+              Demo
+            </a>
+          }
           {
             !data.noGit &&
             <a className='rounded-lg bg-rose2 py-1 px-2 flex items-center w-max gap-x-2' href={data.data.github} target='_blank' >

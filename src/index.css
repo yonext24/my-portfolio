@@ -23,7 +23,7 @@ html {
 
 ::-webkit-scrollbar
 {
-	width: 4px;
+	width: 7px;
 	background-color: gray;
   border-radius: 6px;
 }
