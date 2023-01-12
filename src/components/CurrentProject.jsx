@@ -10,8 +10,8 @@ export default function CurrentProject({ data }) {
 
   return <article className='w-full bg-gradient-to-tl from-[rgb(230,230,230)] via-[rgba(255,255,255,.3)]
   dark:from-darkpurple border-2 border-mainpurple mx-auto grid grid-cols-[45%,auto] gap-x-4 rounded-2xl py-6 px-6 '>
-    <div className=''>
-      <img draggable='false' className='w-full rounded-lg aspect-[16/9] dark:brightness-90 object-cover' src={data.data.image} />
+    <div className='aspect-[1280/700] overflow-hidden rounded-md my-auto'>
+      <img draggable='false' className='w-full rounded-lg aspect-[1280/700] dark:brightness-90 object-cover scale-110 origin-top' src={data.data.image} />
     </div>
     <div className='w-[55] flex flex-col justify-between pl-4'>
       <div>

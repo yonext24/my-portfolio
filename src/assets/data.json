@@ -6,7 +6,7 @@
         "en": "E-Commerce created in colaboration with a friend to level up our github habilities.",
         "es": "E-Commerce creado en colaboración con un amigo para subir nuestro nivel de github."
       },
-      "image": "shoespage.webp  ",
+      "image": "shoespage.webp",
       "github": "https://github.com/mendoza000/myshoes",
       "demo": "https://myshoes-omega.vercel.app/",
       "skills": [
@@ -24,7 +24,7 @@
         "en": "Pokemon page made with the pokeapi, made as my first big react project.",
         "es": "Página de pokemón hecha consumiendo la pokeapi, hecho como mi primer gran proyecto de react."
       },
-      "image": "pokeapi.webp  ",
+      "image": "pokeapi.webp",
       "github": "https://github.com/yonext24/pokeapi-yonext24",
       "demo": "https://pokeapi-yanz.netlify.app/",
       "skills": [
@@ -40,7 +40,7 @@
         "en": "Comments page with CRUD backend. You can reply and react another persons posts.",
         "es": "Página de comentarios CRUD con backend, se puede responder, likear y más."
       },
-      "image": "comments.webp ",
+      "image": "comments.webp",
       "github": "https://github.com/yonext24/firstApi-front",
       "demo": "https://adorable-panda-7d06e6.netlify.app/",
       "skills": [
@@ -56,7 +56,7 @@
         "en": "One of my first web projects, made to prove myself that i could be a web developer. Frontend Mentor Challenge.",
         "es": "Uno de mis primeros proyectos web, hecho para demostrarme a mi mismo que puedo ser un desarrollador web. Desafío de Frontend Mentor."
       },
-      "image": "landing.webp  ",
+      "image": "landing.webp",
       "github": "https://github.com/yonext24/intro-section-frontendmentor",
       "demo": "https://superlative-kulfi-fda267.netlify.app/",
       "skills": [
@@ -71,7 +71,7 @@
         "en": "My first web project. Frontend Mentor Challenge.",
         "es": "Mi primer página, Desafío de Frontend Mentor."
       },
-      "image": "cards.webp  ",
+      "image": "cards.webp",
       "github": "https://github.com/yonext24/Frontend-Mentor-Card-Details",
       "demo": "https://cheery-cucurucho-580773.netlify.app/",
       "skills": [
@@ -86,7 +86,7 @@
         "en": "My first paid job, it was made for an small enterprise who needed a simple landing page.",
         "es": "Mi primer trabajo pagado, fue hecho para una empresa pequeña que necesitaba una landing page simple."
       },
-      "image": "landing_cviz.webp ",
+      "image": "landing_cviz.webp",
       "github": "",
       "demo": "https://clinquant-buttercream-1acdc5.netlify.app/",
       "skills": [
@@ -101,7 +101,7 @@
         "en": "Discord bot made with Python that scrapes news, matches and results from CSGO and also football information. Then sends it to my server.",
         "es": "Bot de discord hecho con Python que scrapea noticias, partidos y resultados de CSGO y también información de fútbol. Luego la publica en mi servidor."
       },
-      "image": "discordlogo.webp  ",
+      "image": "discordlogo.webp",
       "github": "https://github.com/yonext24/Discord-bot",
       "demo": "https://replit.com/@Yonathan-Picone/Remolacho#main.py",
       "skills": [
