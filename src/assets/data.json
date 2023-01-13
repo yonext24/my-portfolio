@@ -12,10 +12,8 @@
       "skills": [
         "tailwind",
         "html",
-        "css",
         "react",
-        "mobile first",
-        "responsive"
+        "mobile first"
       ]
     },
     "pokeapi": {

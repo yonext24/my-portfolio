@@ -43,7 +43,7 @@ export default function Navbar() {
       rounded-lg px-6 shadow-md transition-[background-color,transform]
       dark:shadow-md dark:shadow-[rgb(15,15,15)] duration-300 
       ${isInViewPort ? 'shadow-none bg-[rgba(255,255,255,.4)] dark:bg-[rgba(14,5,15,.01)] bg-none backdrop-blur-[1px] -translate-y-1' : ''}`} >
-        <div className='my-auto flex gap-x-3'>
+        <div className='my-auto flex gap-x-3 max-[600px]:mx-auto'>
           <button className='rounded-[50%] w-12 h-12 cursor-pointer shadow-md flex justify-center items-center active:border-b active:border-l
         active:-translate-x-[1px] active:translate-y-[1px] dark:bg-[black] transition-colors duration-300'
             onClick={handleThemeChange}>
@@ -59,7 +59,7 @@ export default function Navbar() {
           </button>
           <span className='text-md text-secondarypurple font-bold my-auto uppercase'>{language}</span>
         </div>
-        <div className='flex gap-6 h-4/5 justify-center my-auto pt-[4px]'>
+        <div className='flex gap-6 h-4/5 justify-center my-auto pt-[4px] max-[600px]:hidden'>
           <Link to='home' smooth className='group cursor-pointer h-min my-auto' spy={true} duration={500}>
             <div className='border-l-4 border-b-4 pl-[2px] border-[transparent] group-hover:border-mainpurple transition-colors'>
               <div className='group-hover:translate-x-[4px] group-hover:-translate-y-[4px] transition-transform'>
