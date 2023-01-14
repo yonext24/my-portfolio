@@ -36,7 +36,7 @@ export default function WelcomeSection() {
           <img src='/profile_yon.jpg' alt='Profile Picture' draggable='false' className='h-[240px] w-[240px] max-[400px]:h-[190px] max-[400px]:w-[190px] rounded-[50%] mx-auto z-10 relative' />
         </div>
 
-        <div className='text-mainpurple flex mx-auto gap-x-2'>
+        <div className='text-mainpurple flex mx-auto gap-x-2 min-[1024px]:hidden'>
           <a href='https://www.instagram.com/yoni_oc/' target='_blank' className='ml-2 group'  >
             <AiOutlineInstagram className='h-12 w-12 transition-[transform,background-color] group-hover:text-secondarypurple group-hover:scale-105' />
           </a>
