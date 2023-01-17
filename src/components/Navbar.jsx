@@ -40,7 +40,7 @@ export default function Navbar() {
     <nav className={`w-full fixed top-0 left-0 h-16 dark:text-white z-50 bg-[transparent] transition-all`}>
       <div className={`flex justify-between w-4/5 mx-auto h-full
       bg-gradient-to-tr from-rose via-rose to-blue dark:from-gradient1 dark:via-gradient1 dark:to-gradient2
-      rounded-lg px-6 shadow-md transition-[background-color,transform]
+      rounded-b-lg px-6 shadow-md transition-[background-color,transform]
       dark:shadow-md dark:shadow-[rgb(15,15,15)] duration-300 
       ${isInViewPort ? 'shadow-none bg-[rgba(255,255,255,.4)] dark:bg-[rgba(14,5,15,.01)] bg-none backdrop-blur-[1px] -translate-y-1' : ''}`} >
         <div className='my-auto flex gap-x-3 max-[600px]:mx-auto'>

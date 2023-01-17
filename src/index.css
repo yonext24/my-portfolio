@@ -38,7 +38,13 @@ html {
 	background-color: rgb(74 30 158);
   border-radius: 10px;
 }
+
 .text-vertical {
   text-orientation: mixed;
+  writing-mode: vertical-rl;
+}
+
+.text-mixed {
+  text-orientation: upright;
   writing-mode: vertical-rl;
 }
