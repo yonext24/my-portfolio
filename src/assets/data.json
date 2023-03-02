@@ -16,6 +16,20 @@
         "mobile first"
       ]
     },
+      "tattoos": {
+      "title": "Tattoos E-Commerce",
+      "description": {
+        "en": "Sample page of tattoos I did for a relative, made with firebase and contains an administrator panel.",
+        "es": "Página de muestra de tatuajes que hice para un familiar, hecha con firebase y contiene un panel para administrador"
+      },
+      "image": "tattoopage.webp",
+      "demo": "https://alan-page.vercel.app/",
+      "skills": [
+        "react",
+        "nextjs",
+        "firebase"
+      ]
+    },
     "pokeapi": {
       "title": "Pokemon Database",
       "description": {

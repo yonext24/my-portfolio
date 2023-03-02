@@ -13,6 +13,7 @@ export default function ProjectSection() {
       <CurrentProject data={finalData} />
       <div className='flex flex-wrap gap-x-14 gap-y-8 mt-6 justify-center'>
         <Project data={data.projects.shoes} parentSetState={setFinalData} noGit={false} />
+        <Project data={data.projects.tattoos} parentSetState={setFinalData} noGit={true} />
         <Project data={data.projects.pokeapi} parentSetState={setFinalData} noGit={false} />
         <Project data={data.projects.comments} parentSetState={setFinalData} noGit={false} />
         <Project data={data.projects.landingpage} parentSetState={setFinalData} noGit={false} />
