@@ -3,6 +3,7 @@ import { LanguageContext } from '../contexts/LanguageContext'
 import { TfiWorld } from 'react-icons/tfi';
 import { AiOutlineGithub } from 'react-icons/ai';
 import Skill from "./Skill"
+import { ImageSlider } from './ImageSlider';
 
 export default function CurrentProject({ data }) {
   console.log(data)
@@ -13,9 +14,7 @@ export default function CurrentProject({ data }) {
   max-[1180px]:grid-cols-none max-[1180px]:grid-rows-[auto,auto] '>
     <div>
       <h3 className='font-[Righteous] text-5xl text-center text-black dark:text-white mb-3 min-[1180px]:hidden max-[530px]:text-3xl'>{data.data.title}</h3>
-      <div className='aspect-[1280/700] overflow-hidden rounded-2xl max-[580px]:w-full my-auto max-[1180px]:aspect-auto max-[1180px]:w-10/12 mx-auto object-cover'>
-        <img draggable='false' className='w-full rounded-lg aspect-[1280/700] dark:brightness-90 object-cover scale-110 origin-top' src={data.data.image} />
-      </div>
+      <ImageSlider images={data.data.image} />
     </div>
     <div className='w-[55] flex flex-col justify-between pl-4'>
       <div className='min-h-[120px] mt-6'>
