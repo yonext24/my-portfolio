@@ -120,6 +120,21 @@
         "python",
         "scraping"
       ]
+    },
+    "memotest": {
+      "title": "Memotest Game",
+      "description": {
+        "en": "Simple game of memotest ^^, i made it to test my programming logic.",
+        "es": "Simple juego de memotest ^^, lo hice para testear mi lógica de programación."
+      },
+      "image": ["memotest.webp", "memotest2.webp"],
+      "github": "https://github.com/yonext24/y4nzzGames",
+      "demo": "https://y4nzzgames.netlify.app/",
+      "skills": [
+        "react",
+        "vite",
+        "tailwind"
+      ]
     }
   },
   "data": {
