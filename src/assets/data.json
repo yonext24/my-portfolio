@@ -1,5 +1,21 @@
 {
   "projects": {
+    "twitter": {
+      "title": "Twitter Clone",
+      "description": {
+        "es": "Clon de twitter hecho desde cero con Nextjs, Mongoose y Next Auth y Firebase para el almacenamiento de imágenes",
+        "en": "Twitter clone built from scratch with Next.js, Mongoose, Next Auth, and Firebase for image storage."
+      },
+      "image": ["twitter-clone.webp", "twitter-clone2.webp", "twitter-clone3.webp", "twitter-clone4.webp"],
+      "github": "https://github.com/yonext24/twitter-clone",
+      "demo": "https://twitter-clone-five-olive.vercel.app/",
+      "skills": [
+        "Nextjs",
+        "Next Auth",
+        "Mongoose",
+        "Firebase"
+      ]
+    },
     "shoes": {
       "title": "Shoes E-Commerce",
       "description": {

@@ -7,7 +7,6 @@ export const LanguageContextProvider = ({children}) => {
 
   useEffect(() => {
     localStorage.setItem('language', language)
-    console.log(language)
   }, [language])
   
   return <LanguageContext.Provider value={{

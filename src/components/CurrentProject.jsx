@@ -6,7 +6,6 @@ import Skill from "./Skill"
 import { ImageSlider } from './ImageSlider';
 
 export default function CurrentProject({ data }) {
-  console.log(data)
   const { language } = useContext(LanguageContext)
 
   return <article className='w-full bg-gradient-to-tl from-[rgb(230,230,230)] via-[rgba(255,255,255,.3)]
