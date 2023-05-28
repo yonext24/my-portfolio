@@ -14,7 +14,7 @@ export default function Project({ data, parentSetState, noGit, noDemo }) {
     <p className='text-center text-white z-20 absolute right-1/2 translate-x-1/2 top-1/2 -translate-y-1/2 opacity-0 
     group-hover:opacity-100 transition-[filter] pointer-events-none'>{language === 'es' ? 'Click para ver arriba' : 'Click to preview'}</p>
     <div className='w-full h-full overflow-hidden rounded-lg'>
-      <img src={data.image[0]} draggable='false' className='h-full w-full rounded-l-lg cursor-pointer group-hover:brightness-[.2]
+      <img src={data.image[0]} loading='lazy' fetchpriority='low' draggable='false' className='h-full w-full rounded-l-lg cursor-pointer group-hover:brightness-[.2]
     z-[5] transition-[transform,filter] dark:brightness-[.8] object-cover aspect-[1280/700] scale-[1.10] group-hover:scale-125 ' />
     </div>
 

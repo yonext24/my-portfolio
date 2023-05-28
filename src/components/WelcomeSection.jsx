@@ -15,7 +15,7 @@ export default function WelcomeSection() {
 
       <article ref={fromRef} className={`grid grid-cols-[1fr_auto] max-[1024px]:grid-cols-none max-[1024px]:grid-rows-[auto,auto]
        max-[1024px]:max-h-[none] max-[1024px]:h-auto h-[60%] max-h-[400px] bg-transparent place-content-center rounded-3xl p-5 pr-8 shadow-xl
-       transition-[transform,opacity] duration-500 border-2 border-mainpurple backdrop-blur-[2px] hover:-translate-y-1 max-[1024px]:px-0
+       transition-[transform,opacity] duration-500 border-2 border-mainpurple hover:-translate-y-1 max-[1024px]:px-0
        ${!intersected && 'opacity-0 translate-x-1/3'}`}>
 
         <div className='max-[1024px]:row-[2] flex flex-col justify-center'>
