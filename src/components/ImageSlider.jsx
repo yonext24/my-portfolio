@@ -32,7 +32,7 @@ export function ImageSlider ({ images }) {
     }
   { 
     images.map((image, index) => {
-      return <img key={image} draggable='false' className={`w-full rounded-lg transition-transform aspect-[1280/700] dark:brightness-90 object-cover
+      return <img key={image} draggable='false' className={`w-full rounded-lg transition-transform aspect-[1280/700] dark:brightness-90 object-contain
       absolute ${index === currentSlide ? 'z-10' : 'z-0'} left-0`} src={image} style={{ transform: `translateX(${100 * (index - currentSlide)}%)` }} />
     })
   }

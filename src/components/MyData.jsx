@@ -32,6 +32,7 @@ export default function MyData() {
       <h3 className='dark:text-white font-["Righteous"] text-xl'>{language === 'es' ? 'Habilidades' : 'Skills'}</h3>
       <div className='flex flex-wrap mt-2 gap-x-2 gap-y-1'>
         <Skill name='javascript' />
+        <Skill name='typescript' />
         <Skill name='html' />
         <Skill name='css' />
         <Skill name='react' />
@@ -40,6 +41,8 @@ export default function MyData() {
         <Skill name='python' />
         <Skill name='responsive' />
         <Skill name='CRUD' />
+        <Skill name='Firebase' />
+        <Skill name='SEO' />
       </div>
     </div>
   </section>

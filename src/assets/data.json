@@ -1,5 +1,21 @@
 {
   "projects": {
+    "Neptuno Black": {
+      "title": "Neptuno Black Tattoos",
+      "description": {
+        "es": "Página de tatuajes estética, con buenas prácticas y SEO que hice para un familiar, hecha con firebase y tiene un panel de administrador.",
+        "en": "Aesthetic tattoo website, with good practices and SEO, that I made for relative, built with Firebase and featuring an admin panel."
+      },
+      "image": ["nep-tattoopage.webp", "nep-tattoomodal.webp", "nep-designpage.webp", "nep-designmodal.webp", "nep-admin.webp", "nep-home.webp"],
+      "github": "https://github.com/yonext24/tattoo-page",
+      "demo": "https://neptunoblack.vercel.app",
+      "skills": [
+        "Firebase",
+        "Typescript",
+        "Tailwind",
+        "SEO"
+      ]
+    },
     "twitter": {
       "title": "Twitter Clone",
       "description": {
@@ -35,8 +51,8 @@
       "tattoos": {
       "title": "Tattoos E-Commerce",
       "description": {
-        "en": "Sample page of tattoos I did for a relative, made with firebase and contains an administrator panel.",
-        "es": "Página de muestra de tatuajes que hice para un familiar, hecha con firebase y contiene un panel para administrador"
+        "en": "First version of the tattoo sample page I created for a family member, made with Firebase.",
+        "es": "Primer versión de la página de muestra de tatuajes que hice para un familiar, hecha con firebase."
       },
       "image": ["tattoopage.webp", "tattoopage2.webp", "tattoopage3.webp"],
       "demo": "https://alan-page.vercel.app/",

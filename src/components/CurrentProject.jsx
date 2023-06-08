@@ -37,7 +37,7 @@ export default function CurrentProject({ data }) {
             </a>
           }
         </div>
-        <div className='flex flex-wrap gap-2 justify-center w-full items-end max-[680px]:mt-4'>
+        <div className='flex gap-2 justify-end flex-wrap-reverse w-full items-end max-[680px]:mt-4'>
           {
             data.data.skills.map(el => {
               return <Skill key={el} name={el} hasOpacity={true} />
