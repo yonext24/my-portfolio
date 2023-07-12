@@ -33,7 +33,7 @@ export default function WelcomeSection() {
           <div className='border-2 border-mainpurple w-full absolute h-full bottom-3 left-3 rounded-[50%]'></div>
           <div className='border-2 border-mainpurple w-full absolute h-full -bottom-3 -left-3 rounded-[50%]'></div>
           <div className='border-2 border-mainpurple w-full absolute h-full -bottom-3 -right-3 rounded-[50%]'></div>
-          <img src='/profile_yon.jpg' alt='Profile Picture' draggable='false' className='h-[240px] w-[240px] max-[400px]:h-[190px] max-[400px]:w-[190px] rounded-[50%] mx-auto z-10 relative' />
+          <img src='/profile.png' height={240} width={240} alt='Profile Picture' draggable='false' className='h-[240px] w-[240px] max-[400px]:h-[190px] max-[400px]:w-[190px] rounded-[50%] mx-auto z-10 relative' />
         </div>
 
         <div className='text-mainpurple flex mx-auto gap-x-2 min-[1024px]:hidden'>
