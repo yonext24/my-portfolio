@@ -6,6 +6,7 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    extend: {
     colors: {
       white: 'rgb(249, 249, 249)',
       gray: '#ddcbff',
@@ -20,7 +21,6 @@ module.exports = {
       gradient1: 'rgba(19, 7, 27, .7)',
       gradient2: 'rgba(25, 10, 42, .7)'
     },
-    extend: {
       keyframes: {
         scroll: {
           '0%' : { 'top': '7px', 'opacity': '1' },

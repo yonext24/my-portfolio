@@ -6,6 +6,7 @@ import ProjectSection from './components/ProjectSection'
 import Quote from './components/Quote'
 import WelcomeSection from './components/WelcomeSection'
 import { LanguageContextProvider } from './contexts/LanguageContext'
+import { Modals } from 'react-modal-observer'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <MyData />
           <ProjectSection />
           <Footer />
+          <Modals animationType='fade-with-scale' noScroll />
       </LanguageContextProvider>
     </div>
   )

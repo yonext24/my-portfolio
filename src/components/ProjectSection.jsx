@@ -12,9 +12,12 @@ export default function ProjectSection() {
     <div className='bg-gradient-to-tr from-rose to-blue w-full lg:w-10/12 mx-auto rounded-none lg:rounded-3xl py-12 px-6 flex flex-col'>
       <CurrentProject data={finalData} />
       <div className='flex flex-wrap gap-x-14 gap-y-8 mt-6 justify-center'>
+        <Project data={data.projects['TATTOO PAGE']} parentSetState={setFinalData} />
         <Project data={data.projects.twitter} parentSetState={setFinalData} />
         <Project data={data.projects['Neptuno Black']} parentSetState={setFinalData} />
         <Project data={data.projects.shoes} parentSetState={setFinalData} noGit={false} />
+        <Project data={data.projects['react-modal-observer']} parentSetState={setFinalData} noGit={false} />
+        <Project data={data.projects.marmol} parentSetState={setFinalData} noGit={false} />
         <Project data={data.projects.tattoos} parentSetState={setFinalData} noGit={true} />
         <Project data={data.projects.comments} parentSetState={setFinalData} noGit={false} />
         <Project data={data.projects.memotest} parentSetState={setFinalData} noGit={false} />

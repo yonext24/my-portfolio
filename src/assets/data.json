@@ -1,12 +1,45 @@
 {
   "projects": {
+    "TATTOO PAGE": {
+      "title": "TATTOO PAGE",
+      "description": {
+        "es": "Página de tatuajes profesional vendida a un local de mi ciudad. Está hecha con Next.js App Router y cuenta con un panel de administración que muestra analíticas reales de las visitas a la página. Este panel está completamente protegido con autenticación de Google basada en roles.",
+        "en": "Professional tattoo page sold to a local business in my city. It's built with Next.js App Router and features an administration panel displaying real analytics of page visits. The panel is fully protected with google role-based authentication."
+      },
+      "image": [
+        "/deer/welcome.webp",
+        "/deer/tattoos.webp",
+        "/deer/tattoo-page.webp",
+        "/deer/tattoo-recommendations.webp",
+        "/deer/admin-page.webp",
+        "/deer/tattoos-admin.webp",
+        "/deer/add-tattoos.webp"
+      ],
+      "github": "https://github.com/yonext24/deer-tattoos",
+      "demo": "https://tattoo-page-y.vercel.app/",
+      "skills": [
+        "Firebase",
+        "Nextjs",
+        "App router",
+        "Typescript",
+        "Tailwind",
+        "SEO"
+      ]
+    },
     "Neptuno Black": {
       "title": "Neptuno Black Tattoos",
       "description": {
         "es": "Página de tatuajes estética, con buenas prácticas y SEO que hice para un familiar, hecha con firebase y tiene un panel de administrador.",
         "en": "Aesthetic tattoo website, with good practices and SEO, that I made for relative, built with Firebase and featuring an admin panel."
       },
-      "image": ["nep-tattoopage.webp", "nep-tattoomodal.webp", "nep-designpage.webp", "nep-designmodal.webp", "nep-admin.webp", "nep-home.webp"],
+      "image": [
+        "nep-tattoopage.webp",
+        "nep-tattoomodal.webp",
+        "nep-designpage.webp",
+        "nep-designmodal.webp",
+        "nep-admin.webp",
+        "nep-home.webp"
+      ],
       "github": "https://github.com/yonext24/tattoo-page",
       "demo": "https://neptunoblack.vercel.app",
       "skills": [
@@ -22,7 +55,12 @@
         "es": "Clon de twitter hecho desde cero con Nextjs, Mongoose y Next Auth y Firebase para el almacenamiento de imágenes",
         "en": "Twitter clone built from scratch with Next.js, Mongoose, Next Auth, and Firebase for image storage."
       },
-      "image": ["twitter-clone.webp", "twitter-clone2.webp", "twitter-clone3.webp", "twitter-clone4.webp"],
+      "image": [
+        "twitter-clone.webp",
+        "twitter-clone2.webp",
+        "twitter-clone3.webp",
+        "twitter-clone4.webp"
+      ],
       "github": "https://github.com/yonext24/twitter-clone",
       "demo": "https://twitter-clone-five-olive.vercel.app/",
       "skills": [
@@ -38,7 +76,11 @@
         "en": "E-Commerce created in colaboration with a friend to level up our github habilities.",
         "es": "E-Commerce creado en colaboración con un amigo para subir nuestro nivel de github."
       },
-      "image": ["shoespage.webp", "shoespage2.webp", "shoespage3.webp"],
+      "image": [
+        "shoespage.webp",
+        "shoespage2.webp",
+        "shoespage3.webp"
+      ],
       "github": "https://github.com/mendoza000/myshoes",
       "demo": "https://myshoes-omega.vercel.app/",
       "skills": [
@@ -48,13 +90,52 @@
         "mobile first"
       ]
     },
-      "tattoos": {
+    "react-modal-observer": {
+      "title": "React Modal Observer",
+      "description": {
+        "es": "Paquete de npm open source que permite abrir modales en react con una simple función, basado en el patrón observador.",
+        "en": "Open source npm package that allows you to open modals in react with a simple function, based on the observer pattern."
+      },
+      "github": "https://github.com/yonext24/react-modal-observer",
+      "image": [
+        "npm.webp"
+      ],
+      "skills": [
+        "npm",
+        "package development",
+        "open source",
+        "react"
+      ]
+    },
+    "marmol": {
+      "title": "Marmolería",
+      "description": {
+        "es": "Página de muestra de mármoles y muebles muy estética diseñada por mi.",
+        "en": "Aesthetic sample page showcasing marble and furniture, designed by me."
+      },
+      "image": [
+        "/marmol/welcome.webp",
+        "/marmol/marmoles.webp"
+      ],
+      "demo": "https://deft-raindrop-67ccbb.netlify.app/",
+      "skills": [
+        "react",
+        "nextjs",
+        "app router",
+        "firebase"
+      ]
+    },
+    "tattoos": {
       "title": "Tattoos E-Commerce",
       "description": {
         "en": "First version of the tattoo sample page I created for a family member, made with Firebase.",
         "es": "Primer versión de la página de muestra de tatuajes que hice para un familiar, hecha con firebase."
       },
-      "image": ["tattoopage.webp", "tattoopage2.webp", "tattoopage3.webp"],
+      "image": [
+        "tattoopage.webp",
+        "tattoopage2.webp",
+        "tattoopage3.webp"
+      ],
       "demo": "https://alan-page.vercel.app/",
       "skills": [
         "react",
@@ -68,7 +149,9 @@
         "en": "Pokemon page made with the pokeapi, made as my first big react project.",
         "es": "Página de pokemón hecha consumiendo la pokeapi, hecho como mi primer gran proyecto de react."
       },
-      "image": ["pokeapi.webp"],
+      "image": [
+        "pokeapi.webp"
+      ],
       "github": "https://github.com/yonext24/pokeapi-yonext24",
       "demo": "https://pokeapi-yanz.netlify.app/",
       "skills": [
@@ -84,7 +167,9 @@
         "en": "Comments page with CRUD backend. You can reply and react another persons posts.",
         "es": "Página de comentarios CRUD con backend, se puede responder, likear y más."
       },
-      "image": ["comments.webp"],
+      "image": [
+        "comments.webp"
+      ],
       "github": "https://github.com/yonext24/firstApi-front",
       "demo": "https://adorable-panda-7d06e6.netlify.app/",
       "skills": [
@@ -100,7 +185,9 @@
         "en": "One of my first web projects, made to prove myself that i could be a web developer. Frontend Mentor Challenge.",
         "es": "Uno de mis primeros proyectos web, hecho para demostrarme a mi mismo que puedo ser un desarrollador web. Desafío de Frontend Mentor."
       },
-      "image": ["landing.webp"],
+      "image": [
+        "landing.webp"
+      ],
       "github": "https://github.com/yonext24/intro-section-frontendmentor",
       "demo": "https://superlative-kulfi-fda267.netlify.app/",
       "skills": [
@@ -115,7 +202,9 @@
         "en": "My first web project. Frontend Mentor Challenge.",
         "es": "Mi primer página, Desafío de Frontend Mentor."
       },
-      "image": ["cards.webp"],
+      "image": [
+        "cards.webp"
+      ],
       "github": "https://github.com/yonext24/Frontend-Mentor-Card-Details",
       "demo": "https://cheery-cucurucho-580773.netlify.app/",
       "skills": [
@@ -130,7 +219,9 @@
         "en": "My first paid job, it was made for an small enterprise who needed a simple landing page.",
         "es": "Mi primer trabajo pagado, fue hecho para una empresa pequeña que necesitaba una landing page simple."
       },
-      "image": ["landing_cviz.webp"],
+      "image": [
+        "landing_cviz.webp"
+      ],
       "github": "",
       "demo": "https://clinquant-buttercream-1acdc5.netlify.app/",
       "skills": [
@@ -145,7 +236,9 @@
         "en": "Discord bot made with Python that scrapes news, matches and results from CSGO and also football information. Then sends it to my server.",
         "es": "Bot de discord hecho con Python que scrapea noticias, partidos y resultados de CSGO y también información de fútbol. Luego la publica en mi servidor."
       },
-      "image": ["discordlogo.webp"],
+      "image": [
+        "discordlogo.webp"
+      ],
       "github": "https://github.com/yonext24/Discord-bot",
       "demo": "https://replit.com/@Yonathan-Picone/Remolacho#main.py",
       "skills": [
@@ -159,7 +252,10 @@
         "en": "Simple game of memotest ^^, i made it to test my programming logic.",
         "es": "Simple juego de memotest ^^, lo hice para testear mi lógica de programación."
       },
-      "image": ["memotest.webp", "memotest2.webp"],
+      "image": [
+        "memotest.webp",
+        "memotest2.webp"
+      ],
       "github": "https://github.com/yonext24/y4nzzGames",
       "demo": "https://y4nzzgames.netlify.app/",
       "skills": [

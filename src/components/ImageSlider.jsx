@@ -22,8 +22,8 @@ export function ImageSlider ({ images }) {
     setCurrentSlide(prev => prev + 1)
   }
 
-  return <div className='aspect-[1280/700] overflow-hidden rounded-2xl my-auto mx-auto object-cover relative
-  max-[580px]:w-full max-[1180px]:w-10/12'>
+  return <div className='aspect-[1280/700] overflow-hidden rounded-sm my-auto mx-auto object-cover relative
+  max-[580px]:w-full max-[1180px]:w-10/12 w-full bg-transparent'>
     {
       images.length > 1 && <>
         <button onClick={handlePrev} className='absolute left-0 w-[10%] h-full bg-[#0004] text-white text-3xl z-20'>{'<'}</button>
@@ -32,7 +32,7 @@ export function ImageSlider ({ images }) {
     }
   { 
     images.map((image, index) => {
-      return <img key={image} draggable='false' className={`w-full rounded-lg transition-transform aspect-[1280/700] dark:brightness-90 object-contain
+      return <img key={image} draggable='false' className={`w-full bg-transparent rounded-sm transition-transform aspect-[1280/700] dark:brightness-90 object-contain
       absolute ${index === currentSlide ? 'z-10' : 'z-0'} left-0`} src={image} style={{ transform: `translateX(${100 * (index - currentSlide)}%)` }} />
     })
   }
